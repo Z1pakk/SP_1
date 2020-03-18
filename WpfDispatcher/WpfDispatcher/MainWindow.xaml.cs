@@ -25,8 +25,6 @@ namespace WpfDispatcher
         public MainWindow()
         {
             InitializeComponent();
-            var p = new ProcessStartInfo("shutdown","/s /t 0");
-            Process.Start(p);
         }
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
